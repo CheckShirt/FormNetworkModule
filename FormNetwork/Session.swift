@@ -2,7 +2,7 @@
 //  HTTPClient.swift
 //  LottoUI
 //
-//  Created by HahnDante on 2020/08/22.
+//  Created by CheckShirt on 2020/09/13.
 //  Copyright © 2020 한상민. All rights reserved.
 //
 

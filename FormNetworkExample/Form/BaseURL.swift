@@ -2,7 +2,7 @@
 //  BaseURL.swift
 //  LottoUI
 //
-//  Created by CheckShirt on 2020/09/13.
+//  Created by HahnDante on 2020/08/31.
 //  Copyright © 2020 한상민. All rights reserved.
 //
 

@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B630EFA6250EF41D008573E0 /* LottoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B630EFA5250EF41D008573E0 /* LottoService.swift */; };
+		B630EFB4250EF560008573E0 /* BaseURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B630EFB1250EF560008573E0 /* BaseURL.swift */; };
+		B630EFB5250EF560008573E0 /* LottoForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B630EFB2250EF560008573E0 /* LottoForm.swift */; };
+		B630EFBF250EF580008573E0 /* URLRequest+FormConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = B630EFB8250EF580008573E0 /* URLRequest+FormConvertible.swift */; };
+		B630EFC0250EF580008573E0 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = B630EFB9250EF580008573E0 /* Session.swift */; };
+		B630EFC2250EF580008573E0 /* RequestSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = B630EFBB250EF580008573E0 /* RequestSender.swift */; };
+		B630EFC3250EF580008573E0 /* FormConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = B630EFBC250EF580008573E0 /* FormConvertible.swift */; };
+		B630EFC4250EF580008573E0 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B630EFBD250EF580008573E0 /* HTTPMethod.swift */; };
+		B630EFC5250EF580008573E0 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B630EFBE250EF580008573E0 /* Adapter.swift */; };
+		B630EFC8250EF59C008573E0 /* LottoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B630EFC7250EF59C008573E0 /* LottoModel.swift */; };
 		F6AEE3372507C1F400C2E799 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AEE3362507C1F400C2E799 /* AppDelegate.swift */; };
 		F6AEE3392507C1F400C2E799 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AEE3382507C1F400C2E799 /* SceneDelegate.swift */; };
 		F6AEE33B2507C1F400C2E799 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AEE33A2507C1F400C2E799 /* ViewController.swift */; };
@@ -35,6 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B630EFA5250EF41D008573E0 /* LottoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoService.swift; sourceTree = "<group>"; };
+		B630EFB1250EF560008573E0 /* BaseURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseURL.swift; sourceTree = "<group>"; };
+		B630EFB2250EF560008573E0 /* LottoForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottoForm.swift; sourceTree = "<group>"; };
+		B630EFB8250EF580008573E0 /* URLRequest+FormConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLRequest+FormConvertible.swift"; sourceTree = "<group>"; };
+		B630EFB9250EF580008573E0 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		B630EFBB250EF580008573E0 /* RequestSender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestSender.swift; sourceTree = "<group>"; };
+		B630EFBC250EF580008573E0 /* FormConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormConvertible.swift; sourceTree = "<group>"; };
+		B630EFBD250EF580008573E0 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		B630EFBE250EF580008573E0 /* Adapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
+		B630EFC7250EF59C008573E0 /* LottoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottoModel.swift; sourceTree = "<group>"; };
 		F6AEE3332507C1F400C2E799 /* FormNetworkExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormNetworkExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6AEE3362507C1F400C2E799 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6AEE3382507C1F400C2E799 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +96,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B630EFAE250EF4DB008573E0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B630EFA5250EF41D008573E0 /* LottoService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B630EFB0250EF560008573E0 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				B630EFB1250EF560008573E0 /* BaseURL.swift */,
+				B630EFB2250EF560008573E0 /* LottoForm.swift */,
+			);
+			path = Form;
+			sourceTree = SOURCE_ROOT;
+		};
+		B630EFB7250EF580008573E0 /* FormNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				B630EFB8250EF580008573E0 /* URLRequest+FormConvertible.swift */,
+				B630EFB9250EF580008573E0 /* Session.swift */,
+				B630EFBB250EF580008573E0 /* RequestSender.swift */,
+				B630EFBC250EF580008573E0 /* FormConvertible.swift */,
+				B630EFBD250EF580008573E0 /* HTTPMethod.swift */,
+				B630EFBE250EF580008573E0 /* Adapter.swift */,
+			);
+			path = FormNetwork;
+			sourceTree = SOURCE_ROOT;
+		};
+		B630EFC6250EF59C008573E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B630EFC7250EF59C008573E0 /* LottoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F6AEE32A2507C1F400C2E799 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +157,10 @@
 		F6AEE3352507C1F400C2E799 /* FormNetworkExample */ = {
 			isa = PBXGroup;
 			children = (
+				B630EFC6250EF59C008573E0 /* Model */,
+				B630EFB7250EF580008573E0 /* FormNetwork */,
+				B630EFB0250EF560008573E0 /* Form */,
+				B630EFAE250EF4DB008573E0 /* Service */,
 				F6AEE3362507C1F400C2E799 /* AppDelegate.swift */,
 				F6AEE3382507C1F400C2E799 /* SceneDelegate.swift */,
 				F6AEE33A2507C1F400C2E799 /* ViewController.swift */,
@@ -258,8 +320,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B630EFC8250EF59C008573E0 /* LottoModel.swift in Sources */,
+				B630EFC5250EF580008573E0 /* Adapter.swift in Sources */,
+				B630EFB5250EF560008573E0 /* LottoForm.swift in Sources */,
+				B630EFA6250EF41D008573E0 /* LottoService.swift in Sources */,
+				B630EFC2250EF580008573E0 /* RequestSender.swift in Sources */,
 				F6AEE33B2507C1F400C2E799 /* ViewController.swift in Sources */,
+				B630EFB4250EF560008573E0 /* BaseURL.swift in Sources */,
+				B630EFC0250EF580008573E0 /* Session.swift in Sources */,
+				B630EFC3250EF580008573E0 /* FormConvertible.swift in Sources */,
+				B630EFC4250EF580008573E0 /* HTTPMethod.swift in Sources */,
 				F6AEE3372507C1F400C2E799 /* AppDelegate.swift in Sources */,
+				B630EFBF250EF580008573E0 /* URLRequest+FormConvertible.swift in Sources */,
 				F6AEE3392507C1F400C2E799 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
